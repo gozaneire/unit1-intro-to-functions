@@ -24,4 +24,9 @@ def equal(x):
     t.right(120)
 equal(90)
 
+t.left(90)
+rectangle(50, 50)
+rectangle(100, 100)
+rectangle(150, 150)
+rectangle(200, 200)
 turtle.done()
