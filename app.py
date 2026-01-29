@@ -11,22 +11,15 @@ def rectangle(y, z):
     t.left(90)
     t.forward(z)
     t.left(90)
-rectangle(125, 100)
 
-t.right(180)
+for i in range(60):
+    t.forward(i x 10)
+    t.left(90)
+    t.forward(i x 10)
+    t.left(90)
+    t.forward(i x 10)
+    t.left(90)
+    t.forward(i x 10)
+    t.left(95)
 
-def equal(x):
-    t.forward(x)
-    t.right(120)
-    t.forward(x)
-    t.right(120)
-    t.forward(x)
-    t.right(120)
-equal(90)
-
-t.left(90)
-rectangle(50, 50)
-rectangle(100, 100)
-rectangle(150, 150)
-rectangle(200, 200)
 turtle.done()
