@@ -14,13 +14,13 @@ def rectangle(y, z):
 
 for i in range(60):
     print(i)
-    t.forward(i*2)
+    t.forward(100)
     t.left(90)
-    t.forward(i*2)
+    t.forward(100)
     t.left(90)
-    t.forward(i*2)
+    t.forward(100)
     t.left(90)
-    t.forward(i*2)
+    t.forward(100)
     t.left(95)
 
 turtle.done()
